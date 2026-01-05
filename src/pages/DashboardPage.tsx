@@ -2,10 +2,10 @@ import React from 'react';
 
 const DashboardPage: React.FC = () => {
   return (
-    <div>
+    <main id="main-content">
       <h1>Dashboard</h1>
       <p>Welcome to your dashboard!</p>
-    </div>
+    </main>
   );
 };
 

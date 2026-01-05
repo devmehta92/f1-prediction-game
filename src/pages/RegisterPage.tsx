@@ -2,10 +2,10 @@ import React from 'react';
 
 const RegisterPage: React.FC = () => {
   return (
-    <div>
+    <main id="main-content">
       <h1>Register</h1>
       <p>Create an account to start playing.</p>
-    </div>
+    </main>
   );
 };
 

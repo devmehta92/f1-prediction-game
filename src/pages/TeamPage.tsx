@@ -2,10 +2,10 @@ import React from 'react';
 
 const TeamPage: React.FC = () => {
   return (
-    <div>
+    <main id="main-content">
       <h1>Team Builder</h1>
       <p>Build your fantasy team here.</p>
-    </div>
+    </main>
   );
 };
 
