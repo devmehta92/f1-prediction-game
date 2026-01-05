@@ -2,10 +2,10 @@ import React from 'react';
 
 const InsightsPage: React.FC = () => {
   return (
-    <div>
+    <main id="main-content">
       <h1>Insights</h1>
       <p>Explore insights and analytics.</p>
-    </div>
+    </main>
   );
 };
 

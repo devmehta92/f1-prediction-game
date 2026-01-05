@@ -2,10 +2,10 @@ import React from 'react';
 
 const LoginPage: React.FC = () => {
   return (
-    <div>
+    <main id="main-content">
       <h1>Login</h1>
       <p>Please login to your account.</p>
-    </div>
+    </main>
   );
 };
 

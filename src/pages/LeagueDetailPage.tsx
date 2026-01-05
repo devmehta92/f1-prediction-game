@@ -5,10 +5,10 @@ const LeagueDetailPage: React.FC = () => {
   const { leagueId } = useParams<{ leagueId: string }>();
 
   return (
-    <div>
+    <main id="main-content">
       <h1>League Detail</h1>
       <p>Details for league {leagueId}.</p>
-    </div>
+    </main>
   );
 };
 
