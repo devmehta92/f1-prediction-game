@@ -1,0 +1,49 @@
+
+> f1-prediction-game@1.0.0 start /app
+> react-scripts start
+
+
+(node:6961) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:6961) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/app/src'
+ERROR in ./src/App.tsx 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/app/src'
+
+ERROR in ./src/pages/LeagueDetailPage.tsx 6:0-45
+Module not found: Error: Can't resolve 'react-router-dom' in '/app/src/pages'
+
+ERROR in ./src/pages/RacePage.tsx 6:0-45
+Module not found: Error: Can't resolve 'react-router-dom' in '/app/src/pages'
+
+webpack compiled with 3 errors
+ERROR in src/App.tsx:2:56
+TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+    1 | import React from 'react';
+  > 2 | import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+      |                                                        ^^^^^^^^^^^^^^^^^^
+    3 | import HomePage from './pages/HomePage';
+    4 | import LoginPage from './pages/LoginPage';
+    5 | import RegisterPage from './pages/RegisterPage';
+
+ERROR in src/pages/LeagueDetailPage.tsx:2:27
+TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+    1 | import React from 'react';
+  > 2 | import { useParams } from 'react-router-dom';
+      |                           ^^^^^^^^^^^^^^^^^^
+    3 |
+    4 | const LeagueDetailPage: React.FC = () => {
+    5 |   const { leagueId } = useParams<{ leagueId: string }>();
+
+ERROR in src/pages/RacePage.tsx:2:27
+TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+    1 | import React from 'react';
+  > 2 | import { useParams } from 'react-router-dom';
+      |                           ^^^^^^^^^^^^^^^^^^
+    3 |
+    4 | const RacePage: React.FC = () => {
+    5 |   const { round } = useParams<{ round: string }>();
